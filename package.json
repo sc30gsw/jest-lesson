@@ -11,7 +11,8 @@
     "lint:eslint": "yarn run eslint .",
     "format": "run-s format:prettier format:eslint",
     "format:eslint": "yarn run eslint --fix .",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
