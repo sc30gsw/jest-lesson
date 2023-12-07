@@ -17,3 +17,6 @@ it('オブジェクトのテスト', () => {
 
   expect(obj1).toEqual(obj2)
 })
+
+// not
+it('2 + 2は5ではない', () => expect(2 + 2).not.toBe(5))
