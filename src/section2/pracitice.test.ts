@@ -2,7 +2,7 @@ import { ShoppingList } from './practice'
 describe('ShoppingListのテスト', () => {
   let shoppingList: ShoppingList
 
-  beforeAll(() => {
+  beforeEach(() => {
     shoppingList = new ShoppingList()
   })
 
